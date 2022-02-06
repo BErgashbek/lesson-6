@@ -1,0 +1,38 @@
+.left,
+.middle,
+.right {
+  min-height: 100px;
+  display: inline-block;
+}
+.left {
+  width: 24%;
+  background-color: red;
+  display: inline-block;
+}
+.middle {
+  width: 50%;
+  background-color: green;
+  display: inline-block;
+}
+.right {
+  width: 24%;
+  background-color: blue;
+}
+.sub-div {
+  background-color: grey;
+  width: 70%;
+  min-height: 200px;
+  margin: 0 0 0 auto;
+}
+.sub-div p {
+  font-weight: 300;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.top-caption {
+  text-align: center;
+  margin-top: 30px;
+}
+hr {
+  border-style: solid;
+}
